@@ -1,7 +1,10 @@
+import { BrowserRouter } from "react-router-dom";
+import WebRoutes from "./Routes/WebRoutes";
+
 export default function App() {
   return (
-    <>
-      <h1>Projeto - Pokédex</h1>
-    </>
+    <BrowserRouter>
+      <WebRoutes />
+    </BrowserRouter>
   );
 }
